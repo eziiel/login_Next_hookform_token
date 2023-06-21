@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --orange:#f1f1f1;
+  --orange1:#fdba74;
+  --orange2: #ea580c;
+  
+  --grey: #010624;
+  --grey1: #44403c;
+
+  --dark: #1c1917;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  width: 100vw;
+  display: flex;
+  color: var(--orange);
+  position: relative;
+  background: var(--grey);
+/* 
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
